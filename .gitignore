@@ -1,0 +1,18 @@
+# Ignorer les fichiers de configuration de l'éditeur
+.vscode/
+.idea/
+
+# Ignorer les fichiers de build
+build/
+dist/
+
+# Ignorer les fichiers de dépendances
+node_modules/
+
+# Ignorer les fichiers temporaires
+*.log
+*.tmp
+
+# Ignorer les fichiers spécifiques à l'OS
+.DS_Store
+Thumbs.db
