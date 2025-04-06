@@ -4,9 +4,14 @@
     box-sizing: border-box;
 }
 
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
 
-header{
-    display:flex ;
+#nav{
+    display:flex;
     width: 100%;
     background-color: #FFFFFF;
     padding: 10px;
@@ -15,8 +20,13 @@ header{
     border-top: 1vh solid #faa307;
 }
 
+#header-image{
+    height: 10vh;
+    object-fit: none;
+}
+
 .logo{
-    margin-right: 5%;
+    margin-right: -10%;
     display: inline-flex;
     align-items: center;
     }
@@ -56,4 +66,8 @@ footer{
     justify-content: center;
     display: inline-flex;
     gap: 20px;
+}
+
+main{
+    flex: 1;
 }

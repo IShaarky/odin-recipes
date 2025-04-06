@@ -5,9 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style-index.css">
+    
 </head>
 <body>
     <header>
+        <section id="nav">
         <div class="logo">
             <img src="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fcurricular.dev%2Fassets%2Fimages%2Fplatforms%2Fodin_project.png" alt="odin project logo" width="10%">
             <p id="name">Odin Recipes</p>
@@ -19,15 +22,33 @@
                 <li>Chicken curry</li>
             </ul>
         </nav>
+    </section>
+        <img src="https://static01.nyt.com/images/2019/01/28/dining/ch-sheet-pan-salmon-and-potatoes-with-harissa-and-citrus/merlin_145792857_73898966-f0e3-4c7b-9a7d-4eb024fb5e8f-superJumbo.jpg" alt="Baked salmon with potatoes" width="100%" id="header-image">
     </header>
     <main>
         <h1>Odin Recipes</h1>
-        <p>Some of the best recipes</p>
-        <ul>
-            <li href="recipes/lasagna.html">Lasagna</li>
-            <li>Deep fried chicken</li>
-            <li>Chicken curry</li>
-        </ul>
+        <p>"Some of the best recipes"</p>
+        <section id="recipes">
+            <div class="recipe" >
+                <a href="recipes\lasagna.html" target="_blank">
+                <img src="https://static01.nyt.com/images/2023/08/31/multimedia/RS-Lasagna-hkjl/RS-Lasagna-hkjl-threeByTwoMediumAt2X.jpg" alt="A piece of lasagna" width="100%">
+                <h3>Lasagna</h3>
+                <p>One of the best recipe of lasagna from <em>Italia</em></p>
+            </a>
+            </div>
+            <div class="recipe">
+                <a href="recipes\DFC.html" target="_blank">
+                <img src="https://www.allrecipes.com/thmb/bxJgHhi-CW62SeiYYjm2IL0CsXY=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/AR-25492-firecracker-fried-chicken-drumsticks-DDMFS-4x3-d0028b435b674cd59f6d69630f4454a8.jpg" alt="Baked salmon with potatoes" width="100%">
+                <h3>Deep fried chicken</h3>
+                <p>If you like fried chicken, this recipe is one of the best to make fried chicken at home</p>
+            </div>
+            <div class="recipe" >
+                <a href="recipes\chicurry.html" target="_blank">
+                <img src="https://www.allrecipes.com/thmb/_238v3Z3GOGfCS22OANdCvHFHmk=/0x512/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/212721-indian-chicken-curry-murgh-kari-DDMFS-4x3-330302d59ca64543b3d7ead88c226f9a.jpg" alt="Baked salmon with potatoes" width="100%">
+                <h3>Chicken curry</h3>
+                <p>A good and easy chicken curry to make at home like a real chef</p>
+                </a>
+            </div>
     </main>
     <footer>
         <div class="logo">
