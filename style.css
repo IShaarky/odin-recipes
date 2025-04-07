@@ -2,6 +2,7 @@
     font-family: 'Roboto', sans-serif;
     margin: 0;
     box-sizing: border-box;
+    color: #2C2B2B;
 }
 
 body{
@@ -18,11 +19,6 @@ body{
     text-wrap: nowrap;
     align-items: center;
     border-top: 1vh solid #faa307;
-}
-
-#header-image{
-    height: 10vh;
-    object-fit: none;
 }
 
 .logo{
