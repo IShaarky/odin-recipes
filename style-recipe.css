@@ -8,11 +8,17 @@ main{
     padding: 2% 0;
 }
 
-div{
+main div{
 margin-top: 2%;
 }
 
-ol, ul{
+main ol, ul{
     margin-top: 20px;
     
+}
+
+a{
+    text-decoration: none;
+    color: #000000;
+    display: block;
 }
