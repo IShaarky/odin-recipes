@@ -11,6 +11,7 @@
     display: flex;
     justify-content: space-evenly;
     gap: 5%;
+    margin: 10px 0 10px 0;
 }
 
 #header-image{
